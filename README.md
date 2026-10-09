@@ -39,12 +39,14 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 
 ---
 
-## 🏢 Enterprise Architecture Portfolio
+<br>
+
+**<big>🏢 ENTERPRISE ARCHITECTURE PORTFOLIO</big>**
 > **Execution:** *All systems below were architected and engineered end-to-end as a Solo Developer—from initial system design through to containerized cloud deployment.*
 
 <br>
 
-**1. Digital Display **
+**1. Digital Display**
 > **Enterprise Resource & Operations Management Platform**
 > *Tech Stack: React, TypeScript, Node.js, MongoDB, Redis, Docker*
 
@@ -114,7 +116,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 
 ---
 
-## 💻 Freelance & Client Projects
+<br>
+
+**<big>💻 FREELANCE & CLIENT PROJECTS</big>**
 
 <br>
 
