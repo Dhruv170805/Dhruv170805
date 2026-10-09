@@ -1,7 +1,7 @@
 <div align="center">
   
-# Hi there, I'm Dhruv Patel 👋
-### Full-Stack Developer | Cloud & DevOps Engineer
+# 🚀 Dhruv Patel
+### Architecting Enterprise-Scale Cloud & Full-Stack Solutions
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dhruv-patel-3a3063266)
 [![Portfolio](https://img.shields.io/badge/Live-Portfolio-success?style=for-the-badge&logo=vercel)](https://portfolio-delta-fawn-p7cwxkrlxn.vercel.app)
