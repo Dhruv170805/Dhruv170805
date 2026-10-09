@@ -42,7 +42,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 ## 🏢 Enterprise Architecture Portfolio
 > **Execution:** *All systems below were architected and engineered end-to-end as a Solo Developer—from initial system design through to containerized cloud deployment.*
 
-### 1. Digital Display 
+<br>
+
+**1. Digital Display **
 > **Enterprise Resource & Operations Management Platform**
 > *Tech Stack: React, TypeScript, Node.js, MongoDB, Redis, Docker*
 
@@ -50,7 +52,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 🔄 **Data Flow:** Routed all client traffic through a centralized API Gateway, implementing Redis for high-speed query caching and MongoDB for persistent, schema-less data storage.
 * ⚡ **Frontend Performance:** Engineered a React-based SPA (Single Page Application) with aggressive component virtualization to smoothly render massive data grids without freezing the browser DOM.
 
-### 2. Enroll for Face (Biometrics)
+<br>
+
+**2. Enroll for Face (Biometrics)**
 > **Enterprise Identity Management Platform**
 > *Tech Stack: React, Next.js, TypeScript, NestJS, Prisma ORM, MongoDB, WebSockets*
 
@@ -58,7 +62,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 📡 **State Hydration:** Built a bidirectional WebSocket communication layer to push real-time identity verification statuses to distributed client devices instantly, eliminating HTTP polling overhead.
 * 🚀 **Task Queueing:** Offloaded asynchronous biometric data processing and validation to a Redis-backed event queue, ensuring the main thread remains unblocked during morning traffic surges.
 
-### 3. Office Bell
+<br>
+
+**3. Office Bell**
 > **Enterprise Workplace Services & Facility Management**
 > *Tech Stack: Next.js, TypeScript, NestJS, Redis, Docker*
 
@@ -66,7 +72,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 🗄️ **Database Optimization:** Conducted deep refactoring of heavy relational SQL queries and injected a distributed Redis caching layer, drastically reducing the baseline execution time for complex data joins.
 * 📨 **Async Processing:** Orchestrated a dedicated background worker pipeline to asynchronously generate dynamic PDF reports and dispatch bulk notifications without stalling the client UI.
 
-### 4. MedSync
+<br>
+
+**4. MedSync**
 > **Enterprise Healthcare Resource Planning**
 > *Tech Stack: React 19, TypeScript, Vite, .NET 10 (C#), Entity Framework Core, SQL Server, Docker*
 
@@ -74,7 +82,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 🛡️ **Data Layer:** Leveraged Entity Framework Core over SQL Server to guarantee strict ACID compliance and robust access controls for sensitive organizational and medical staff records.
 * 🎨 **Client Performance:** Integrated TanStack Query for advanced request deduping and background data synchronization, enabling the sub-second rendering of complex medical datasets.
 
-### 5. Quotation System
+<br>
+
+**5. Quotation System**
 > **Corporate Quotation & Resource Planning**
 > *Tech Stack: React, Next.js, TypeScript, Express, Prisma ORM, Redis, OAuth 2.0*
 
@@ -82,7 +92,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 📄 **Queue Architecture:** Decoupled the synchronous HTTP request cycle from heavy PDF document generation by implementing a robust message queue, effectively eliminating API timeouts for enterprise clients.
 * 🔒 **Security:** Secured the entire data flow using strict OAuth 2.0 implementation and Prisma ORM to prevent SQL injection and enforce type-safe database queries.
 
-### 6. SLA (Service Level Agreement Platform)
+<br>
+
+**6. SLA (Service Level Agreement Platform)**
 > **Enterprise Resource & Workflow Management**
 > *Tech Stack: React.js, Next.js, TypeScript, Node.js, Redis, Docker*
 
@@ -90,7 +102,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 🔀 **Dynamic State Machine:** Formulated a configuration-driven state machine architecture that reads routing logic from a database rather than hardcoded logic, allowing instant, code-free workflow updates.
 * 🧠 **Caching:** Implemented Redis to temporarily cache complex compliance rule sets, significantly accelerating the validation speed of incoming transaction requests.
 
-### 7. VMS (Visitor Management System)
+<br>
+
+**7. VMS (Visitor Management System)**
 > **Enterprise Facility & Resource Management**
 > *Tech Stack: Next.js 16, TypeScript, Zustand, Express.js 5, MongoDB, Redis, Socket.io*
 
@@ -102,7 +116,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 
 ## 💻 Freelance & Client Projects
 
-### 8. DevFix Techworks Website
+<br>
+
+**8. DevFix Techworks Website**
 > **Premium Corporate Service Directory & Internal CRM**
 > *Tech Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion, MongoDB*
 
@@ -110,7 +126,9 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 * 🛡️ **Internal CRM Flow:** Integrated a secure, hidden administrative API layer routing directly to MongoDB via Mongoose, enabling real-time lead and contact request management.
 * 🔄 **System Resilience:** Engineered an auto-mocking fallback architecture that seamlessly injects mock API data if the database connection drops, guaranteeing 100% UI uptime for public users.
 
-### 9. Restaurant Billing System
+<br>
+
+**9. Restaurant Billing System**
 > **Live Commercial POS & Invoicing Platform**
 > *Tech Stack: Node.js, TypeScript* | 🔗 **[Live Demo](https://restaurant-billing-app-self.vercel.app)**
 
