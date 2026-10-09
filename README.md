@@ -116,5 +116,13 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 
 ---
 <div align="center">
-  <i>If you're a recruiter or engineering manager, feel free to explore my pinned repositories or reach out directly via <a href="https://www.linkedin.com/in/dhruv-patel-3a3063266">LinkedIn</a> to discuss these architectures in detail!</i>
+  <h3>🚀 Let's Build Something Great Together</h3>
+  <p><i>If you're a recruiter, engineering manager, or fellow developer, feel free to explore my pinned repositories or reach out directly to discuss these architectures in detail!</i></p>
+
+  <a href="https://www.linkedin.com/in/dhruv-patel-3a3063266">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:dhruvpatel2178@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
