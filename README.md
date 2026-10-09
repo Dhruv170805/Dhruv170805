@@ -46,54 +46,57 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 > **Enterprise Resource & Operations Management Platform**
 > *Tech Stack: React, TypeScript, Node.js, MongoDB, Redis, Docker*
 
-* 🏗️ **Architecture:** Spearheaded the transition from three highly fragmented legacy tools into a single, unified cloud platform supporting massive concurrent user loads.
-* ⚙️ **Backend Scaling:** Constructed a horizontally scalable backend architecture utilizing API Gateways and microservices to ensure complete fault tolerance and high availability.
-* ⚡ **Frontend Optimization:** Accelerated frontend rendering and data grid performance via aggressive lazy loading, component virtualization, and advanced client-side caching.
-* 📈 **Business Impact:** Significantly improved Time to Interactive (TTI) for heavy data dashboards and reduced overall system latency across the global corporate network.
+* 🏗️ **System Architecture:** Migrated a monolithic legacy application into a decoupled microservices architecture utilizing Node.js and Docker for isolated resource scaling.
+* 🔄 **Data Flow:** Routed all client traffic through a centralized API Gateway, implementing Redis for high-speed query caching and MongoDB for persistent, schema-less data storage.
+* ⚡ **Frontend Performance:** Engineered a React-based SPA (Single Page Application) with aggressive component virtualization to smoothly render massive data grids without freezing the browser DOM.
 
 ### 2. Enroll for Face (Biometrics)
 > **Enterprise Identity Management Platform**
 > *Tech Stack: React, Next.js, TypeScript, NestJS, Prisma ORM, MongoDB, WebSockets*
 
-* 🔒 **Core System:** Engineered a highly secure, privacy-first identity management solution facilitating seamless biometric enrollment for corporate workforce identities.
-* 🔄 **Real-Time Sync:** Integrated real-time state synchronization across distributed client devices via WebSockets, completely eliminating traditional HTTP polling overhead and reducing server strain.
-* 🚀 **Queue Management:** Deployed a resilient event-driven task architecture utilizing Redis to guarantee rapid API response times, even during morning peak-hour access surges.
+* 🔒 **Core Architecture:** Architected a full-stack Next.js and NestJS biometric platform, deliberately isolating the heavy media-processing pipelines from the main REST API thread.
+* 📡 **State Hydration:** Built a bidirectional WebSocket communication layer to push real-time identity verification statuses to distributed client devices instantly, eliminating HTTP polling overhead.
+* 🚀 **Task Queueing:** Offloaded asynchronous biometric data processing and validation to a Redis-backed event queue, ensuring the main thread remains unblocked during morning traffic surges.
 
 ### 3. Office Bell
 > **Enterprise Workplace Services & Facility Management**
 > *Tech Stack: Next.js, TypeScript, NestJS, Redis, Docker*
 
-* 🏢 **Problem Solved:** Built a robust facility operations portal from the ground up to streamline disjointed logistical, meeting, and service workflows for a global corporate workforce.
-* 🗄️ **Database Optimization:** Conducted deep refactoring of complex SQL queries and implemented a distributed Redis caching layer to drastically decrease baseline API latency.
-* 📨 **Asynchronous Processing:** Orchestrated a message-driven background processing engine to safely offload CPU-intensive tasks like dynamic PDF report generation and bulk notifications.
+* 🏢 **Infrastructure:** Built a containerized facility operations portal, bridging multiple disjointed corporate logistical workflows into a single, cohesive Next.js ecosystem.
+* 🗄️ **Database Optimization:** Conducted deep refactoring of heavy relational SQL queries and injected a distributed Redis caching layer, drastically reducing the baseline execution time for complex data joins.
+* 📨 **Async Processing:** Orchestrated a dedicated background worker pipeline to asynchronously generate dynamic PDF reports and dispatch bulk notifications without stalling the client UI.
 
 ### 4. MedSync
 > **Enterprise Healthcare Resource Planning**
 > *Tech Stack: React 19, TypeScript, Vite, .NET 10 (C#), Entity Framework Core, SQL Server, Docker*
 
-* 🏥 **Migration & Security:** Led the critical transition to a centralized healthcare planning platform, ensuring the secure migration and strict access control of sensitive organizational and medical staff data.
-* 🎨 **Client-Side Rendering:** Boosted frontend performance by leveraging TanStack Query for advanced state management and DOM virtualization to ensure sub-second rendering of massive medical datasets.
+* 🏥 **Architecture:** Engineered a highly secure, centralized healthcare planning platform utilizing a highly performant .NET 10 (C#) backend and a Vite-powered React 19 frontend.
+* 🛡️ **Data Layer:** Leveraged Entity Framework Core over SQL Server to guarantee strict ACID compliance and robust access controls for sensitive organizational and medical staff records.
+* 🎨 **Client Performance:** Integrated TanStack Query for advanced request deduping and background data synchronization, enabling the sub-second rendering of complex medical datasets.
 
 ### 5. Quotation System
 > **Corporate Quotation & Resource Planning**
 > *Tech Stack: React, Next.js, TypeScript, Express, Prisma ORM, Redis, OAuth 2.0*
 
-* 💰 **Scale:** Designed a high-throughput financial quotation generation platform capable of processing highly complex, multi-variable estimates for enterprise-tier clients.
-* 📄 **Queue Architecture:** Implemented a robust asynchronous document generation pipeline utilizing message queues. This successfully decoupled heavy PDF processing from the main thread, reducing synchronous server load and preventing request timeouts.
+* 💰 **System Flow:** Designed a high-throughput quotation generation pipeline where an Express.js backend securely handles complex, multi-variable financial algorithms.
+* 📄 **Queue Architecture:** Decoupled the synchronous HTTP request cycle from heavy PDF document generation by implementing a robust message queue, effectively eliminating API timeouts for enterprise clients.
+* 🔒 **Security:** Secured the entire data flow using strict OAuth 2.0 implementation and Prisma ORM to prevent SQL injection and enforce type-safe database queries.
 
 ### 6. SLA (Service Level Agreement Platform)
 > **Enterprise Resource & Workflow Management**
 > *Tech Stack: React.js, Next.js, TypeScript, Node.js, Redis, Docker*
 
-* ⚙️ **Workflow Engine:** Created a highly available workflow automation engine designed to process critical compliance and SLA transactions securely at scale.
-* 🔀 **Dynamic Routing:** Formulated a dynamic, configuration-driven state machine. This empowered non-technical business analysts to seamlessly modify approval routing rules in the UI without requiring engineering code deployments.
+* ⚙️ **Workflow Engine:** Architected a highly available compliance automation engine in Node.js capable of processing state-heavy SLA transactions securely at scale.
+* 🔀 **Dynamic State Machine:** Formulated a configuration-driven state machine architecture that reads routing logic from a database rather than hardcoded logic, allowing instant, code-free workflow updates.
+* 🧠 **Caching:** Implemented Redis to temporarily cache complex compliance rule sets, significantly accelerating the validation speed of incoming transaction requests.
 
 ### 7. VMS (Visitor Management System)
 > **Enterprise Facility & Resource Management**
 > *Tech Stack: Next.js 16, TypeScript, Zustand, Express.js 5, MongoDB, Redis, Socket.io*
 
-* 🧠 **Machine Learning Integration:** Incorporated privacy-preserving, edge-computed biometric verification directly in the browser using `face-api.js`, drastically reducing server-side processing costs and latency.
-* ⚙️ **Background Workers:** Constructed an event-driven background processing architecture to seamlessly offload heavy computational tasks and asynchronous webhooks.
+* 🧠 **Edge Architecture:** Shifted heavy machine learning workloads to the client edge by incorporating `face-api.js` directly in the browser, completely bypassing server-side media processing and latency.
+* 🔄 **State Management:** Utilized Zustand for global client-state hydration and Socket.io for immediate cross-device access-control synchronization.
+* ⚙️ **Event-Driven Backend:** Constructed a robust Express.js backend that pushes heavy logging and webhook dispatching to a Redis-backed background worker architecture.
 
 ---
 
@@ -103,16 +106,16 @@ Superpower: "Transforming fragmented legacy tools into unified, highly scalable 
 > **Premium Corporate Service Directory & Internal CRM**
 > *Tech Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion, MongoDB*
 
-* 🎨 **UI/UX Engineering:** Developed a premium, high-performance corporate website featuring advanced theming, fluid Framer Motion micro-interactions, and a modern glassmorphism aesthetic.
-* 🛡️ **Internal CRM:** Built and integrated a secure, hidden administrative dashboard routing directly to MongoDB to manage live client leads, contact requests, and project inquiries.
-* 🔄 **Resilient Architecture:** Implemented a dynamic data architecture that gracefully falls back to mock API data if the database connection is interrupted, ensuring the public UI never crashes.
+* 🎨 **Frontend Architecture:** Built a modern, edge-deployed Next.js 15 (App Router) corporate directory, aggressively utilizing server components to minimize client-side JavaScript bundles.
+* 🛡️ **Internal CRM Flow:** Integrated a secure, hidden administrative API layer routing directly to MongoDB via Mongoose, enabling real-time lead and contact request management.
+* 🔄 **System Resilience:** Engineered an auto-mocking fallback architecture that seamlessly injects mock API data if the database connection drops, guaranteeing 100% UI uptime for public users.
 
 ### 9. Restaurant Billing System
 > **Live Commercial POS & Invoicing Platform**
 > *Tech Stack: Node.js, TypeScript* | 🔗 **[Live Demo](https://restaurant-billing-app-self.vercel.app)**
 
-* 🍽️ **Real-World Usage:** Launched a production-ready Point of Sale (POS) and billing platform actively utilized daily by a high-volume restaurant to process physical orders.
-* 🧾 **Automation:** Engineered an automated, GST-compliant invoicing workflow that generates dynamic PDF and text bills, significantly reducing manual bookkeeping and administrative overhead for the business owners.
+* 🍽️ **POS Architecture:** Developed a production-ready Point of Sale (POS) backend in Node.js, specifically optimized for low-latency, localized commercial environments.
+* 🧾 **Automated Workflows:** Programmed a dynamic, GST-compliant pipeline that parses real-time order data, calculates localized taxes, and automatically generates printable PDF invoices on the fly.
 
 ---
 <div align="center">
