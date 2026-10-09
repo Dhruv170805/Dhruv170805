@@ -23,14 +23,24 @@
 
 </div>
 
+
+```yaml
+# Current Status
+Status: "Open to new opportunities"
+Focus: ["Cloud Infrastructure", "System Design", "Full-Stack Development"]
+Superpower: "Transforming fragmented legacy tools into unified, highly scalable platforms."
+```
+
 ---
 
-Welcome to my extended project portfolio! While my CV provides a high-level executive summary, this repository serves as a deep dive into the **architecture**, **challenges**, and **technical solutions** behind the enterprise-grade platforms I've engineered.
+> **MISSION:** To bridge the gap between complex business requirements and highly available, resilient cloud architectures.
+> 
+> *This repository serves as the technical companion to my CV—providing a deep dive into the system design, scaling challenges, and core engineering solutions behind the platforms I have built.*
 
 ---
 
-## 🏢 Enterprise Platforms 
-*(Engineered completely from scratch as a Solo Architect & Developer)*
+## 🏢 Enterprise Architecture Portfolio
+> **Execution:** *All systems below were architected and engineered end-to-end as a Solo Developer—from initial system design through to containerized cloud deployment.*
 
 ### 1. Digital Display 
 > **Enterprise Resource & Operations Management Platform**
